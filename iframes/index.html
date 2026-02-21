@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes Viewer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+
+        #iframe-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .link-wrapper {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        /* The Horizontal Line (Header) */
+        .link-header {
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #fff;
+            border-left: 5px solid #ccc;
+        }
+
+        /* Status Colors */
+        .status-ok .link-header { border-left-color: #28a745; }      /* Green */
+        .status-blocked .link-header { border-left-color: #dc3545; } /* Red */
+        .status-uncertain .link-header { border-left-color: #ffc107; } /* Yellow */
+
+        .link-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-grow: 1;
+        }
+
+        .url-text {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .status-badge {
+            font-size: 0.75em;
+            padding: 2px 8px;
+            border-radius: 12px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .badge-ok { background: #d4edda; color: #155724; }
+        .badge-blocked { background: #f8d7da; color: #721c24; }
+        .badge-uncertain { background: #fff3cd; color: #856404; }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .toggle-btn {
+            background: none;
+            border: 1px solid #ddd;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85em;
+        }
+        .toggle-btn:hover { background-color: #f0f0f0; }
+
+        .ext-link {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 0.9em;
+        }
+
+        .iframe-content {
+            height: 0;
+            visibility: hidden;
+            opacity: 0;
+            transition: height 0.3s ease, opacity 0.3s ease;
+            border-top: 1px solid #eee;
+        }
+
+        .iframe-content.expanded {
+            height: 500px;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="iframe-container"></div>
+
+<script>
+    // ==========================================
+    // 1. DATA CONFIGURATION
+    // ==========================================
+    
+    // You can easily add manual links here
+    const manualLinks = [
+        "https://example.com",
+        "https://wikipedia.org",
+        // "https://another-site.com"
+    ];
+
+    const jsonUrl = 'local.json'; 
+
+    // ==========================================
+    // 2. HELPER FUNCTIONS
+    // ==========================================
+
+    const container = document.getElementById('iframe-container');
+
+    async function getJsonFromUrl(url) {
+        try {
+            const response = await fetch(url);
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            return await response.json();
+        } catch (error) {
+            console.error("Fetch error:", error);
+            return null;
+        }
+    }
+
+    async function checkUrlAvailability(url) {
+        try {
+            const response = await fetch(url, { method: 'HEAD', mode: 'cors' });
+            const xFrame = response.headers.get('x-frame-options');
+            const csp = response.headers.get('content-security-policy');
+
+            if (xFrame && (xFrame.toLowerCase() === 'deny' || xFrame.toLowerCase() === 'sameorigin')) {
+                return { status: 'blocked', reason: 'X-Frame-Options' };
+            }
+            if (csp && csp.includes('frame-ancestors')) {
+                return { status: 'blocked', reason: 'CSP' };
+            }
+            return { status: 'ok' };
+        } catch (error) {
+            return { status: 'uncertain', reason: 'CORS/Network' };
+        }
+    }
+
+    async function renderLink(url) {
+        if (!url) return;
+
+        const check = await checkUrlAvailability(url);
+        const isAutoExpanded = (check.status === 'ok'); // Only expand if green
+
+        const wrapper = document.createElement('div');
+        wrapper.className = `link-wrapper status-${check.status}`;
+
+        let badgeClass = 'badge-uncertain';
+        let statusText = 'Unknown Access';
+        
+        if (check.status === 'ok') {
+            badgeClass = 'badge-ok';
+            statusText = 'Available';
+        } else if (check.status === 'blocked') {
+            badgeClass = 'badge-blocked';
+            statusText = `Blocked (${check.reason})`;
+        } else {
+            badgeClass = 'badge-uncertain';
+            statusText = `Unknown (${check.reason})`;
+        }
+
+        wrapper.innerHTML = `
+            <div class="link-header">
+                <div class="link-info">
+                    <span class="url-text">${url}</span>
+                    <span class="status-badge ${badgeClass}">${statusText}</span>
+                </div>
+                <div class="controls">
+                    <button class="toggle-btn">${isAutoExpanded ? 'Collapse' : 'Show Preview'}</button>
+                    <a href="${url}" target="_blank" class="ext-link">Open New Tab &nearr;</a>
+                </div>
+            </div>
+            <div class="iframe-content ${isAutoExpanded ? 'expanded' : ''}"></div>
+        `;
+
+        const toggleBtn = wrapper.querySelector('.toggle-btn');
+        const contentDiv = wrapper.querySelector('.iframe-content');
+        
+        const loadIframe = () => {
+            if (!contentDiv.querySelector('iframe')) {
+                const iframe = document.createElement('iframe');
+                iframe.src = url;
+                iframe.loading = "lazy";
+                contentDiv.appendChild(iframe);
+            }
+        };
+
+        if (isAutoExpanded) loadIframe();
+
+        toggleBtn.addEventListener('click', () => {
+            if (contentDiv.classList.contains('expanded')) {
+                contentDiv.classList.remove('expanded');
+                toggleBtn.textContent = 'Show Preview';
+            } else {
+                loadIframe();
+                contentDiv.classList.add('expanded');
+                toggleBtn.textContent = 'Collapse';
+            }
+        });
+
+        container.appendChild(wrapper);
+    }
+
+    // ==========================================
+    // 3. MAIN EXECUTION FLOW
+    // ==========================================
+
+    async function init() {
+        // A. Start with your manual links
+        let allLinks = [...manualLinks];
+
+        // B. Fetch and extract links from JSON
+        const data = await getJsonFromUrl(jsonUrl);
+        
+        if (data) {
+            for (const key in data) {
+                if (!Object.hasOwn(data, key)) continue;
+
+                if (Array.isArray(data[key])) {
+                    // Extract from Arrays
+                    data[key].forEach(element => {
+                        if(element.link) allLinks.push(element.link);
+                    });
+                } else {
+                    // Extract from Objects
+                    for (const subkey in data[key]) {
+                        if (Object.hasOwn(data[key], subkey) && data[key][subkey].website) {
+                            allLinks.push(data[key][subkey].website);
+                        }
+                    }
+                }
+            }
+        }
+
+        // C. Remove Duplicates (Optional, but cleaner)
+        const uniqueLinks = [...new Set(allLinks)];
+
+        // D. Render everything
+        console.log("Rendering Links:", uniqueLinks);
+        for (const link of uniqueLinks) {
+            await renderLink(link);
+        }
+    }
+
+    // Run the script
+    init();
+
+</script>
+</body>
+</html>

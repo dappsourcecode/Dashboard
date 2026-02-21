@@ -1,0 +1,1359 @@
+{
+  "daily_login": [
+    {
+      "name": "Coingecko",
+      "link": "https://www.coingecko.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/CoinGecko_logo.png"
+    },
+    {
+      "name": "Coinmarketcap",
+      "link": "https://coinmarketcap.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/coinmarketcap-logo.png"
+    },
+    {
+      "name": "Publish0x",
+      "link": "https://www.publish0x.com?a=4oeEw0Yb0B&tid=github",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/publish0x.jpeg"
+    },
+    {
+      "name": "Torum",
+      "link": "https://www.torum.com/u/0fajarpurnama0?referral_code=0fajarpurnama0",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/xtm.png"
+    },
+    {
+      "name": "Odysee",
+      "link": "https://odysee.com/$/invite/@0fajarpurnama0:e",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/odysee.jpeg"
+    }
+  ],
+  "crypto_social_media": [
+    {
+      "name": "Floyx",
+      "link": "https://www.floyx.com/registration?token=eyJ1c2VybmFtZSI6IjBmYWphcnB1cm5hbWEwIn0=",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/floyx.webp"
+    },
+    {
+      "name": "Minds",
+      "link": "https://www.minds.com/0fajarpurnama0?referrer=0fajarpurnama0",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/minds.svg"
+    }
+  ],
+  "crypto_project_database": [
+    {
+      "name": "Coinpaprika",
+      "link": "https://coinpaprika.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/coinpaprika.jpeg"
+    },
+    {
+      "name": "CoinCarp",
+      "link": "https://www.coincarp.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/coincarp.jpg"
+    },
+    {
+      "name": "coincodex",
+      "link": "https://coincodex.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/coincodex-dark-small.webp"
+    },
+    {
+      "name": "Coinfeeds",
+      "link": "https://www.coinfeeds.io/coins",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/coinfeeds-logo-official.svg"
+    },
+    {
+      "name": "LunarCrush",
+      "link": "https://lunarcrush.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/lunarcrush-light.png"
+    },
+    {
+      "name": "Dapp Radar",
+      "link": "https://dappradar.com",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/dappradar.png"
+    },
+    {
+      "name": "Gecko Terminal",
+      "link": "https://www.geckoterminal.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/geckoterminal.webp"
+    },
+    {
+      "name": "Defi Llama",
+      "category": "defi",
+      "link": "https://defillama.com/",
+      "description": "TVL data for DeFi protocols by Defi Llama",
+      "icon": "/assets/images/icon/crypto/defillama.jpeg"
+    },
+    {
+      "name": "Dex Screener",
+      "category": "defi",
+      "link": "https://dexscreener.com/",
+      "description": "Information of DeFi assets by Dex Screener",
+      "icon": "/assets/images/icon/crypto/dexscreener.png"
+    },
+    {
+      "name": "Ave.ai",
+      "category": "defi",
+      "link": "https://ave.ai/",
+      "description": "Information of DeFi assets by Ave.ai",
+      "icon": "https://seeklogo.com/images/A/ave-logo-D089CC2E21-seeklogo.com.png"
+    },
+    {
+      "name": "Ape Space",
+      "category": "defi",
+      "link": "https://apespace.io/",
+      "description": "Information of DeFi assets by Ape Space",
+      "icon": "/assets/images/icon/crypto/apespace.webp"
+    },
+    {
+      "name": "Token Terminal",
+      "category": "defi",
+      "link": "https://tokenterminal.com/",
+      "description": "Fundamentals of Crypto by Token Terminal",
+      "icon": "/assets/images/icon/crypto/tokenterminal.jpg"
+    },
+    {
+      "name": "Dprism Ai",
+      "category": "defi",
+      "link": "https://dprism.ai/user/register/?invitationCode=MCUFZ2XS",
+      "description": "Information of DeFi assets by Dprism Ai",
+      "icon": "/assets/images/icon/crypto/dprismai.png"
+    },
+    {
+      "name": "Blockpour",
+      "category": "defi",
+      "link": "https://app.blockpour.com/settings/subscription-plan?referralCode=uh8di7iw",
+      "description": "Information of DeFi assets by Blockpour",
+      "icon": "/assets/images/icon/crypto/blockpour-logo.webp"
+    },
+    {
+      "name": "Parsec",
+      "category": "defi",
+      "link": "https://parsec.fi/r/fajarpurnama",
+      "description": "Information of DeFi assets by Parsec",
+      "icon": "/assets/images/icon/crypto/parsec-logo.webp"
+    },
+    {
+      "name": "Dextools",
+      "link": "https://www.dextools.io/",
+      "description": "Token list for Ethereum",
+      "icon": "/assets/images/icon/crypto/dextools_logo_full_dark.svg"
+    },
+    {
+      "name": "Dappbay Bnbchain",
+      "link": "https://dappbay.bnbchain.org/",
+      "description": "Dapp list for Binance Smart Chain",
+      "icon": "/assets/images/icon/crypto/dappbay-logo-group.png"
+    },
+    {
+      "name": "Markr",
+      "link": "https://www.markr.io/",
+      "description": "Token list for Avalanche",
+      "icon": "/assets/images/icon/crypto/markr.svg"
+    },
+    {
+      "name": "Zilstream",
+      "link": "https://zilstream.com/",
+      "description": "Token list for Zilliqa",
+      "icon": "/assets/images/icon/crypto/zilstream.svg"
+    },
+    {
+      "name": "Coinhall",
+      "link": "https://coinhall.org/",
+      "description": "Token list was for Terra Luna",
+      "icon": "/assets/images/icon/crypto/coinhall.webp"
+    },
+    {
+      "name": "Dexlab",
+      "link": "https://www.dexlab.space/",
+      "description": "Token list was for Solana",
+      "icon": "/assets/images/icon/crypto/dexlab.svg"
+    },
+    {
+      "name": "NDAPP",
+      "link": "https://ndapp.org/",
+      "description": "Dapp list on Neo",
+      "icon": "/assets/images/icon/crypto/logo-ndapp.svg"
+    },
+    {
+      "name": "Avax Analysis",
+      "link": "https://avax.bot/",
+      "description": "Multitech for Avax",
+      "icon": "/assets/images/icon/crypto/avaxanalysis-logo.png"
+    },
+    {
+      "name": "Wavescap",
+      "link": "https://wavescap.com/",
+      "description": "Token list for Waves",
+      "icon": "/assets/images/icon/crypto/wavescap-social.png"
+    },
+    {
+      "name": "Vestige Finance",
+      "link": "https://vestige.fi/",
+      "description": "Token list for Algorand",
+      "icon": "/assets/images/icon/crypto/vestige.png"
+    },
+    {
+      "name": "All Of Algorand",
+      "link": "https://allo.info/",
+      "description": "Dapp list for Algorand",
+      "icon": "/assets/images/icon/crypto/allo.jpg"
+    },
+    {
+      "name": "Chaintrail",
+      "link": "https://chaintrail.io/",
+      "description": "Dapp list for Algorand",
+      "icon": "/assets/images/icon/crypto/chaintrail.svg"
+    },
+    {
+      "name": "Vechain Stats",
+      "link": "https://vechainstats.com/",
+      "description": "Token list for Vechain",
+      "icon": "/assets/images/icon/crypto/vechainstats.webp"
+    },
+    {
+      "name": "Waxblock",
+      "link": "https://waxblock.io/",
+      "description": "Token list for Wax",
+      "icon": "/assets/images/icon/crypto/wax-block.png"
+    },
+    {
+      "name": "Hive Engine",
+      "link": "https://hive-engine.com/",
+      "description": "Token list for Hive",
+      "icon": "/assets/images/icon/crypto/hive-engine.png"
+    },
+    {
+      "name": "Cardano Cube",
+      "link": "https://www.cardanocube.com/",
+      "description": "Token list for Cardano",
+      "icon": "/assets/images/icon/crypto/cardanocube.png"
+    },
+    {
+      "name": "Cardano Explorer",
+      "link": "https://cexplorer.io/",
+      "description": "Token list for Cardano",
+      "icon": "/assets/images/icon/crypto/cexplorer.png"
+    },
+    {
+      "name": "taptools",
+      "link": "https://www.taptools.io/",
+      "description": "Token list for Cardano",
+      "icon": "/assets/images/icon/crypto/TtLogo2.webp"
+    },
+    {
+      "name": "Cardano dApp Store",
+      "link": "https://dappsoncardano.com/",
+      "description": "dApp list for Cardano",
+      "icon": "/assets/images/icon/crypto/dappsoncardano.png"
+    },
+    {
+      "name": "Stellar Expert",
+      "link": "https://stellar.expert/",
+      "description": "Token list for Stellar Lumen",
+      "icon": "/assets/images/icon/crypto/stellar-expert-blue.svg"
+    },
+    {
+      "name": "Stellar Chain",
+      "link": "https://stellarchain.io/",
+      "description": "Token list for Stellar Lumen",
+      "icon": "/assets/images/icon/crypto/stellarchain.png"
+    },
+    {
+      "name": "Telegram App Center",
+      "link": "https://www.tapps.center/",
+      "description": "Application list on Telegram",
+      "icon": "/assets/images/icon/telegram_app_center.jpg"
+    },
+    {
+      "name": "Ton App Center",
+      "link": "https://ton.app/",
+      "description": "Dapp lis on Telegram Open Network",
+      "icon": "/assets/images/icon/crypto/tonapp.png"
+    }
+  ],
+  "crypto_wallets": [
+    {
+      "name": "Brave",
+      "link": "https://brave.com/?ref=faj135",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/Brave-Browser.png"
+    },
+    {
+      "name": "Exodus",
+      "link": "https://www.exodus.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/exodus-wallet.svg"
+    },
+    {
+      "name": "Trust Wallet",
+      "link": "https://trustwallet.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/trust-wallet.png"
+    },
+    {
+      "name": "Math Wallet",
+      "link": "https://mathwallet.org/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/MathWallet.png"
+    },
+    {
+      "name": "Safepal",
+      "link": "https://www.safepal.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/safepal.svg"
+    },
+    {
+      "name": "O3 Wallet",
+      "link": "https://o3.network/#/wallet",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/o3.png"
+    },
+    {
+      "name": "Coinbase Wallet",
+      "link": "https://www.coinbase.com/wallet",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/coinbase-wallet.png"
+    },
+    {
+      "name": "Cronos Defi Wallet",
+      "link": "https://crypto.com/defi-wallet",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/cronos-cro-logo.svg"
+    },
+    {
+      "name": "Atomic Wallet",
+      "link": "https://atomicwallet.io/join?kid%20=17KP6Z",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/atomic-wallet.png"
+    },
+    {
+      "name": "Metamask",
+      "link": "https://metamask.io/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/metamask-fox.svg"
+    },
+    {
+      "name": "Taho",
+      "link": "https://taho.xyz/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/taho.webp"
+    }
+  ],
+  "portfolio_dashboards": {
+    "dexscreener": {
+      "name": "Dex Screener",
+      "website": "https://dexscreener.com",
+      "shareable_link": "https://dexscreener.com/portfolio/",
+      "icon": "/assets/images/icon/crypto/dex-screener.png",
+      "description": ""
+    },
+    "apeboard": {
+      "name": "Ape Board",
+      "website": "https://apeboard.finance/",
+      "shareable_link": "https://apeboard.finance/dashboard/",
+      "icon": "/assets/images/icon/crypto/apeboard.png",
+      "description": ""
+    },
+    "nansen": {
+      "name": "Nansen",
+      "website": "https://www.nansen.ai/",
+      "shareable_link": "https://portfolio.nansen.ai/dashboard/",
+      "icon": "/assets/images/icon/crypto/nansen.webp",
+      "description": ""
+    },
+    "debank": {
+      "name": "Debank",
+      "website": "https://debank.com/profile/0xcf354a0012160bc5dae441c49f0b2d7e4a4ffc96?t=1691388023231&r=71159",
+      "shareable_link": "https://debank.com/profile/",
+      "icon": "/assets/images/icon/debank.webp",
+      "description": ""
+    },
+    "markr": {
+      "name": "Markr",
+      "website": "https://markr.io",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/markr.svg",
+      "description": ""
+    },
+    "pacoca": {
+      "name": "Pacoca",
+      "website": "https://pacoca.io",
+      "shareable_link": "https://pacoca.io/dashboard?address=",
+      "icon": "/assets/images/icon/crypto/pacoca.png",
+      "description": ""
+    },
+    "tin": {
+      "name": "Tin.",
+      "website": "https://tin.network",
+      "shareable_link": "https://tin.network/en/dashboard/preview/",
+      "icon": "/assets/images/icon/crypto/tinnetwork.svg",
+      "description": ""
+    },
+    "zapper": {
+      "name": "Zapper Finance",
+      "website": "https://zapper.fi",
+      "shareable_link": "https://zapper.fi/account/",
+      "icon": "/assets/images/icon/crypto/zapperfi.webp",
+      "description": ""
+    },
+    "zerion": {
+      "name": "Zerion",
+      "website": "https://zerion.io/",
+      "shareable_link": "https://app.zerion.io/",
+      "icon": "/assets/images/icon/crypto/zerion-lockup.svg",
+      "description": ""
+    },
+    "sonarwatch": {
+      "name": "Sonar Watch",
+      "website": "https://sonar.watch",
+      "shareable_link": "https://sonar.watch/portfolio/",
+      "icon": "/assets/images/icon/crypto/sonarwatch.svg",
+      "description": ""
+    },
+    "stepfinance": {
+      "name": "Step Finance",
+      "website": "https://step.finance",
+      "shareable_link": "https://app.step.finance/en/dashboard?watching=",
+      "icon": "/assets/images/icon/crypto/Step-Logotype-White.svg",
+      "description": ""
+    },
+    "dedotfi": {
+      "name": "De.Fi",
+      "website": "https://de.fi",
+      "shareable_link": "https://de.fi/account/",
+      "icon": "/assets/images/icon/crypto/dedotfi.jpg",
+      "description": ""
+    },
+    "mymerlin": {
+      "name": "Mymerlin",
+      "website": "https://mymerlin.io",
+      "shareable_link": "https://mymerlin.io/dashboard/",
+      "icon": "/assets/images/icon/crypto/mymerlin.png",
+      "description": ""
+    },
+    "decentrifi": {
+      "name": "Decentrifi",
+      "website": "https://decentri.fi/",
+      "shareable_link": "https://track.decentri.fi/",
+      "icon": "/assets/images/icon/crypto/decentrifi.png",
+      "description": ""
+    },
+    "keplr_dashboard": {
+      "name": "Keplr Dashboard",
+      "website": "https://wallet.keplr.app/",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/keplr.png",
+      "description": ""
+    },
+    "metamask_portfolio": {
+      "name": "Metamask Portfolio",
+      "website": "https://portfolio.metamask.io/",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/metamask-fox.svg",
+      "description": ""
+    },
+    "degenwatch": {
+      "name": "Degen Watch",
+      "website": "https://degen.watch",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/",
+      "description": ""
+    },
+    "yieldmonitor": {
+      "name": "Yield Monitor",
+      "website": "https://yieldmonitor.io",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/YM_WebsiteLogo_2022.webp",
+      "description": ""
+    },
+    "zilstream": {
+      "name": "Zilstream",
+      "website": "https://zilstream.com",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/zilstream.svg",
+      "description": ""
+    },
+    "zilwatch": {
+      "name": "Zilwatch",
+      "website": "https://zilwatch.io",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/",
+      "description": ""
+    },
+    "tefi": {
+      "name": "Tefi",
+      "website": "https://www.tefi.app",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/",
+      "description": ""
+    },
+    "apyvision": {
+      "name": "APY Vision",
+      "website": "https://apy.vision/",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/apyvision.svg",
+      "description": ""
+    },
+    "yieldwatch": {
+      "name": "Yield Watch",
+      "website": "https://www.yieldwatch.net/",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/yieldwatch.webp",
+      "description": ""
+    },
+    "jdiyield": {
+      "name": "Jdi Yield",
+      "website": "https://www.jdiyield.com/",
+      "shareable_link": "",
+      "icon": "/assets/images/icon/crypto/jdi-light.svg",
+      "description": ""
+    },
+    "bosstrack": {
+      "name": "Boss Track",
+      "website": "https://bosstrack.com",
+      "shareable_link": "https://bosstrack.com/wallet/",
+      "icon": "/assets/images/icon/crypto/boss_track_small.png",
+      "description": ""
+    },
+    "nimbus": {
+      "name": "Nimbus",
+      "website": "https://app.getnimbus.io/?invitation=42e0579d-a692-4a95-8a8d-93e0f054bad4",
+      "shareable_link": "https://app.getnimbus.io/?tab=token&type=EVM&chain=ALL&address=",
+      "icon": "/assets/images/icon/crypto/nimbus.svg",
+      "description": ""
+    }
+  },
+  "blockchain_explorers": {
+    "etherscan": {
+      "name": "Etherscan",
+      "website": "https://etherscan.io",
+      "shareable_link": "https://etherscan.io/address/",
+      "icon": "/assets/images/icon/crypto/logo-etherscan.svg",
+      "description": ""
+    },
+    "bscscan": {
+      "name": "BSCscan",
+      "website": "https://bscscan.com",
+      "shareable_link": "https://bscscan.com/address/",
+      "icon": "/assets/images/icon/crypto/logo-bscscan.svg",
+      "description": ""
+    },
+    "snowtrace": {
+      "name": "Snowtrace",
+      "website": "https://snowtrace.io",
+      "shareable_link": "https://snowtrace.io/address/",
+      "icon": "/assets/images/icon/crypto/snowtrace.avif",
+      "description": ""
+    },
+    "polygonscan": {
+      "name": "Polygonscan",
+      "website": "https://polygonscan.com",
+      "shareable_link": "https://polygonscan.com/address/",
+      "icon": "/assets/images/icon/crypto/logo-polygonscan.svg",
+      "description": ""
+    },
+    "cronosscan": {
+      "name": "Cronoscan",
+      "website": "https://cronoscan.com",
+      "shareable_link": "https://cronoscan.com/address/",
+      "icon": "/assets/images/icon/crypto/cronosscan.svg",
+      "description": ""
+    },
+    "finderterraclassiccommunity": {
+      "name": "Finder Terraclassic Community",
+      "website": "https://finder.terraclassic.community/",
+      "shareable_link": "https://finder.terraclassic.community/columbus-5/address/",
+      "icon": "/assets/images/icon/crypto/logo.finderterraclassiccommunity.svg",
+      "description": ""
+    },
+    "atomscanterralunaclassic": {
+      "name": "Atomscan",
+      "website": "https://atomscan.com",
+      "shareable_link": "https://atomscan.com/terra/accounts/",
+      "icon": "/assets/images/icon/crypto/atomscam.png",
+      "description": ""
+    },
+    "atomscancosmos": {
+      "name": "Atomscan",
+      "website": "https://atomscan.com",
+      "shareable_link": "https://atomscan.com/accounts/",
+      "icon": "/assets/images/icon/crypto/atomscam.png",
+      "description": ""
+    },
+    "tronscan": {
+      "name": "Tronscan",
+      "website": "https://tronscan.org",
+      "shareable_link": "https://tronscan.org/#/address/",
+      "icon": "/assets/images/icon/crypto/tronscan.svg",
+      "description": ""
+    },
+    "doracozneo3": {
+      "name": "Doracoz",
+      "website": "https://dora.coz.io",
+      "shareable_link": "https://dora.coz.io/address/neo3/mainnet/",
+      "icon": "/assets/images/icon/crypto/logo.doracoz.png",
+      "description": ""
+    },
+    "eosauthority": {
+      "name": "Eos Authority",
+      "website": "https://eosauthority.com",
+      "shareable_link": "https://eosauthority.com/account/",
+      "icon": "/assets/images/icon/crypto/eos-banner-icon2.svg",
+      "description": ""
+    },
+    "viewblockzil": {
+      "name": "Viewblock",
+      "website": "https://viewblock.io",
+      "shareable_link": "https://viewblock.io/zilliqa/address/",
+      "icon": "/assets/images/icon/crypto/viewblock.jpg",
+      "description": ""
+    },
+    "viewblocktt": {
+      "name": "Viewblock",
+      "website": "https://viewblock.io",
+      "shareable_link": "https://viewblock.io/thundercore/",
+      "icon": "/assets/images/icon/crypto/viewblock.jpg",
+      "description": ""
+    },
+    "tomoscan": {
+      "name": "Tomoscan",
+      "website": "https://tomoscan.io",
+      "shareable_link": "https://tomoscan.io/address/",
+      "icon": "/assets/images/icon/crypto/tomoscan-logo-dark.svg",
+      "description": ""
+    },
+    "kccexplorer": {
+      "name": "Kucoin Chain Explorer",
+      "website": "https://explorer.kcc.io",
+      "shareable_link": "https://explorer.kcc.io/en/tokentxns/",
+      "icon": "/assets/images/icon/crypto/kcs-logo-header.svg",
+      "description": ""
+    },
+    "wantokenview": {
+      "name": "Tokenview",
+      "website": "https://wan.tokenview.com",
+      "shareable_link": "https://wan.tokenview.com/en/address/",
+      "icon": "/assets/images/icon/crypto/",
+      "description": ""
+    },
+    "energiswap": {
+      "name": "Energi Swap",
+      "website": "https://energiswap.exchange",
+      "shareable_link": "https://info.energiswap.exchange/account/",
+      "icon": "/assets/images/icon/crypto/energiswap.svg",
+      "description": ""
+    },
+    "wavesexplorer": {
+      "name": "Waves Explorer",
+      "website": "https://wavesexplorer.com",
+      "shareable_link": "https://wavesexplorer.com/address/",
+      "icon": "/assets/images/icon/crypto/waves.png",
+      "description": ""
+    },
+    "iostabc": {
+      "name": "Iostabc",
+      "website": "https://www.iostabc.com",
+      "shareable_link": "https://www.iostabc.com/account/",
+      "icon": "/assets/images/icon/crypto/logo.iostscan.svg",
+      "description": ""
+    },
+    "backendg": {
+      "name": "Backendq",
+      "website": "https://infoapi.backendq.com",
+      "shareable_link": "https://infoapi.backendq.com/address/",
+      "icon": "/assets/images/icon/crypto/",
+      "description": ""
+    },
+    "lumenscan": {
+      "name": "Lumenscan",
+      "website": "https://lumenscan.io",
+      "shareable_link": "https://lumenscan.io/account/",
+      "icon": "/assets/images/icon/crypto/lumenscan.jpg",
+      "description": ""
+    },
+    "stellar_expert": {
+      "name": "Stellar Expert",
+      "website": "https://stellar.expert",
+      "shareable_link": "https://stellar.expert/explorer/public/account/",
+      "icon": "/assets/images/icon/crypto/stellar-expert-blue.svg",
+      "description": ""
+    },
+    "hiveausbit": {
+      "name": "Hive Ausbit",
+      "website": "https://hive.ausbit.dev",
+      "shareable_link": "https://hive.ausbit.dev/",
+      "icon": "/assets/images/icon/crypto/hive.svg",
+      "description": ""
+    },
+    "hivestats": {
+      "name": "Hivestats",
+      "website": "https://hivestats.io/",
+      "shareable_link": "https://hivestats.io/",
+      "icon": "/assets/images/icon/crypto/hivestats.png",
+      "description": ""
+    },
+    "ontology": {
+      "name": "Ontology Explorer",
+      "website": "https://explorer.ont.io",
+      "shareable_link": "https://explorer.ont.io/address/",
+      "icon": "/assets/images/icon/crypto/onto-wallet.png",
+      "description": ""
+    },
+    "flow": {
+      "name": "Flowscan",
+      "website": "https://flowscan.org",
+      "shareable_link": "https://flowscan.org/account/",
+      "icon": "/assets/images/icon/crypto/",
+      "description": ""
+    },
+    "bitquerycardano": {
+      "name": "Bitquery",
+      "website": "https://explorer.bitquery.io",
+      "shareable_link": "https://explorer.bitquery.io/cardano/address/",
+      "icon": "/assets/images/icon/crypto/bitquery.png",
+      "description": ""
+    },
+    "nearblocks": {
+      "name": "Near Blocks",
+      "website": "https://nearblocks.io",
+      "shareable_link": "https://nearblocks.io/address/",
+      "icon": "/assets/images/icon/crypto/nb-black-on-bos.svg",
+      "description": ""
+    },
+    "qtuminfo": {
+      "name": "Qtum Info",
+      "website": "https://qtum.info/address/",
+      "shareable_link": "https://qtum.info/address/",
+      "icon": "/assets/images/icon/crypto/qtum-logo.svg",
+      "description": ""
+    }
+  },
+  "testnet_faucets": [
+    {
+      "name": "ETH Sepolia by Infura",
+      "link": "https://www.infura.io/faucet/sepolia",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/infura.jpg"
+    },
+    {
+      "name": "Multiple L2 EVM by Automata Network",
+      "link": "https://www.l2faucet.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/automatanetwork.png"
+    },
+    {
+      "name": "AVAX and Subnets by Core",
+      "link": "https://core.app/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/CoreOwl.svg"
+    },
+    {
+      "name": "BSC by bnbchain",
+      "link": "https://www.bnbchain.org/en/testnet-faucet",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/dappbay-logo-group.png"
+    },
+    {
+      "name": "MATIC by Polygon Technology",
+      "link": "https://faucet.polygon.technology",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/polygon-matic-logo.svg"
+    },
+    {
+      "name": "MATIC by Polygon Technology",
+      "link": "https://faucet.polygon.technology",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/polygon-matic-logo.svg"
+    },
+    {
+      "name": "CRO by Cronos",
+      "link": "https://docs.cronos.org/for-users/testnet-faucet",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/cronos-cro-logo.svg"
+    },
+    {
+      "name": "FTM by Fantom",
+      "link": "https://faucet.fantom.network/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/fantom-ftm-logo.svg"
+    },
+    {
+      "name": "ONE by Harmony One",
+      "link": "https://faucet.pops.one/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/harmony-one-logo.svg"
+    },
+    {
+      "name": "NRG by Energi",
+      "link": "https://faucet.energi.network/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/energiswap.svg"
+    },
+    {
+      "name": "WAN by Wanchain",
+      "link": "https://wanchain-faucet.vercel.app/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/wanchain-wan-logo.png"
+    },
+    {
+      "name": "TT by ThunderCore",
+      "link": "https://faucet-testnet.thundercore.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/ThunderCore_Logo_Mark.png"
+    },
+    {
+      "name": "USDC by Circle",
+      "link": "https://faucet.circle.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/usd-coin-usdc-logo.svg"
+    },
+    {
+      "name": "H1 by Haven1",
+      "link": "https://www.haven1.org/invite/ttl2wqjxyt",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/haven1.jpg"
+    },
+    {
+      "name": "TON by Testnet Ton Giver",
+      "link": "https://t.me/testgiver_ton_bot",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/testgiverton.jpg"
+    },
+    {
+      "name": "TON by TONXAPI",
+      "link": "https://faucet.tonxapi.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/tonxapifaucet.svg"
+    },
+    {
+      "name": "SOL by Solana",
+      "link": "https://faucet.solana.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/solana-sol-logo.svg"
+    },
+    {
+      "name": "TRX by Shasta Tronex",
+      "link": "https://shasta.tronex.io/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/tron-trx-logo.svg"
+    },
+    {
+      "name": "TRX by Nileex",
+      "link": "https://nileex.io/join/getJoinPage",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/tron-trx-logo.svg"
+    },
+    {
+      "name": "NEAR by NEAR Protocol",
+      "link": "https://docs.near.org/tools/faucet",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/near-protocol-near-logo.svg"
+    },
+    {
+      "name": "ALGO by Algorand",
+      "link": "https://developer.algorand.org/docs/get-details/algorand-networks/testnet/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/algorand.png"
+    },
+    {
+      "name": "VET by Vechain Foundation",
+      "link": "https://docs.vechain.org/core-concepts/networks/testnet",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/vechain.png"
+    },
+    {
+      "name": "EOS by EOSIO Network Foundation",
+      "link": "https://developers.eos.io/welcome/latest/testnet/index",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/eos-banner-icon2.svg"
+    },
+    {
+      "name": "EOS EVM by EOS Network Foundation",
+      "link": "https://faucet.testnet.evm.eosnetwork.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/eos-banner-icon2.svg"
+    },
+    {
+      "name": "ONT by Ontology",
+      "link": "https://ont.io/faucet/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/ontology-ont-logo.svg"
+    },
+    {
+      "name": "XLM by Stellar Development Foundation",
+      "link": "https://developers.stellar.org/docs/learn/fundamentals/networks",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/stellar-lumen.png"
+    },
+    {
+      "name": "ZIL by Zilliqa Research",
+      "link": "https://dev.zilliqa.com/zilliqa1/developers/developer-toolings/dev-tools-faucet/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/ziliqa.png"
+    },
+    {
+      "name": "NEO3 by Neo Team",
+      "link": "https://n3t5wish.ngd.network/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/neo.png"
+    },
+    {
+      "name": "Cosmos by Interchain Foundation",
+      "link": "https://hub.cosmos.network/main/hub-tutorials/join-testnet",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/cosmos-atom-logo.svg"
+    },
+    {
+      "name": "WAVES by Waves Team",
+      "link": "https://docs.waves.tech/en/ecosystem/waves-explorer/account-balance-top-up-in-the-test-network",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/waves.png"
+    },
+    {
+      "name": "Multichain by Triangles",
+      "link": "https://faucet.triangleplatform.com/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/triangle.png"
+    },
+    {
+      "name": "Multicoin by Stakely",
+      "link": "https://stakely.io/faucet",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/stakely.svg"
+    }
+  ],
+  "crypto_others": [
+    {
+      "name": "Airdrops.io",
+      "link": "https://airdrops.io/",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/airdropsio.jpg"
+    },
+    {
+      "name": "Glassnode",
+      "category": "defi",
+      "link": "https://studio.glassnode.com/partner/cigh7dcmtrb6tjfd66rg",
+      "description": "Glassnode makes blockchain data accessible for everyone",
+      "icon": "/assets/images/icon/crypto/glassnode.png"
+    },
+    {
+      "name": "Arkham Intelligence",
+      "category": "defi",
+      "link": "https://platform.arkhamintelligence.com/",
+      "description": "The cryptocurrency intelligence platform",
+      "icon": "/assets/images/icon/crypto/arkham-intelligence.jpg"
+    },
+    {
+      "name": "Bubble Maps",
+      "category": "defi",
+      "link": "https://bubblemaps.io/",
+      "description": "Innovative Visuals for Blockchain Data by Bubble Maps",
+      "icon": "/assets/images/icon/crypto/bubblemaps.png"
+    },
+    {
+      "name": "Dex Guru",
+      "category": "defi",
+      "link": "https://dex.guru/",
+      "description": "The Trading View on DeFi by Dex Guru",
+      "icon": "/assets/images/icon/crypto/dexguru.png"
+    },
+    {
+      "name": "Poo Coin",
+      "category": "defi",
+      "link": "https://poocoin.app/",
+      "description": "View price charts of your tokens in your wallet with Poo Coin",
+      "icon": "/assets/images/icon/crypto/poocoin.webp"
+    },
+    {
+      "name": "Messari",
+      "category": "defi",
+      "link": "https://messari.io/",
+      "description": "Cryptocurrency data aggregator by Messari",
+      "icon": "/assets/images/icon/crypto/messari.jpeg"
+    },
+    {
+      "name": "Santiment",
+      "category": "defi",
+      "link": "https://santiment.net/",
+      "description": "Introducing Crypto & NFT Visual Explorer by Santiment",
+      "icon": "/assets/images/icon/crypto/santiment.png"
+    },
+    {
+      "name": "Cryptoquant",
+      "category": "defi",
+      "link": "https://cryptoquant.com/sign-up?my-friend=DLciiwz4",
+      "description": "On-chain data analytics by cryptoquant",
+      "icon": "/assets/images/icon/crypto/cryptoquant.png"
+    },
+    {
+      "name": "Cryptobubbles",
+      "category": "defi",
+      "link": "https://cryptobubbles.net/",
+      "description": "Interactive Bubbles on Cryptos by cryptobubbles",
+      "icon": "/assets/images/icon/crypto/cryptobubbles.png"
+    },
+    {
+      "name": "Coinmarketcal",
+      "category": "defi",
+      "link": "https://coinmarketcal.com/",
+      "description": "Crypto Economic Calendar by coinmarketcal",
+      "icon": "/assets/images/icon/crypto/coinmarketcal.png"
+    },
+    {
+      "name": "Crypto Logos",
+      "category": "Asset",
+      "link": "https://cryptologos.cc/",
+      "description": "List of crypto logos",
+      "icon": "/assets/images/icon/crypto/cryptologocc.jpg"
+    }
+  ],
+  "crypto_cexs": [
+    {
+      "name": "Indodax",
+      "link": "https://indodax.com/ref/0fajarpurnama0/1",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/indodax.jpeg"
+    },
+    {
+      "name": "Tokocrypto",
+      "link": "https://www.tokocrypto.com/account/signup?ref=QNIM7G1Q",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/tokocrypto.webp"
+    },
+    {
+      "name": "Luno",
+      "link": "https://www.luno.com/invite/S24B5E",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/luno.jpg"
+    },
+    {
+      "name": "Pintu",
+      "link": "https://bit.ly/pintu_kemana_saja",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/pintu.webp"
+    },
+    {
+      "name": "Upbit",
+      "link": "https://id.upbit.com/signup?ref=F01628",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/upbit.png"
+    },
+    {
+      "name": "Binance",
+      "link": "https://accounts.binance.com/register?ref=36878461",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/bnb.jpeg"
+    },
+    {
+      "name": "Gate.io",
+      "link": "https://www.gate.io/signup/VFNCVQ1Y?ref_type=103",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/gate.io-logo.png"
+    },
+    {
+      "name": "Kucoin",
+      "link": "https://www.kucoin.com/r/rf/xgHf1b",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/kucoin.png"
+    },
+    {
+      "name": "Crypto.com App",
+      "link": "https://crypto.com/app/q4pv8f6y8t",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/cryptocom.jpg"
+    },
+    {
+      "name": "Crypto.com Exchange",
+      "link": "https://crypto.com/exch/q4pv8f6y8t",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/cryptocom.jpg"
+    },
+    {
+      "name": "Huobi",
+      "link": "https://www.htx.com/invite/en-us/1f?invite_code=yx7v4",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/huobi-token-ht-logo.png"
+    },
+    {
+      "name": "Coinbase",
+      "link": "https://www.coinbase.com/join/purnam_0v",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/coinbase.png"
+    },
+    {
+      "name": "BKEX",
+      "link": "https://www.bkex.com/register/NOHPX3C4",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/bkex-logo.png"
+    },
+    {
+      "name": "MXC",
+      "link": "https://www.mxc.ai/auth/signup?inviteCode=16HZA",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/mxc-mxc9964.jpg"
+    },
+    {
+      "name": "Coinfield",
+      "link": "https://coinfield.com/ref/0/ID5E857C75CE",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/coinfield.png"
+    },
+    {
+      "name": "Bybit",
+      "link": "https://www.bybit.com/invite?ref=PKPYY",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/bybit.jpg"
+    },
+    {
+      "name": "Phemex",
+      "link": "https://phemex.com/web/user/register?referralCode=EUU3L",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/phemex.png"
+    },
+    {
+      "name": "Hotbit",
+      "link": "https://www.hotbit.io/register?ref=1242203",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/hotbit.png"
+    },
+    {
+      "name": "Coinex",
+      "link": "https://www.coinex.com/register?refer_code=gv7u8",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/coinex.png"
+    },
+    {
+      "name": "nonkyc",
+      "link": "https://nonkyc.io?ref=661383abf83ae50b2732d258",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/nonkycexchange.svg"
+    }
+  ],
+  "telegram_apps": [
+    {
+      "name": "Tap Fantasy",
+      "link": "https://t.me/TapFantasyGameBot?start=75Rz4xZo2PgF8b1DVN6nnK",
+      "personal_link": "https://t.me/TapFantasyGameBot?start=2S7VN6iET7ShGJhSQNGw1",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/tapfantasy.jpg",
+      "rate": "addictive"
+    },
+    {
+      "name": "Hamster Kombat",
+      "link": "https://t.me/hamsTer_kombat_bot/start?startapp=kentId1545831903",
+      "personal_link": "https://t.me/hamster_kombat_bOt/start?startapp=kentId382017625",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/hamster_kombat.jpg",
+      "rate": "fun"
+    },
+    {
+      "name": "PixelTap",
+      "link": "https://t.me/pixelversexyzbot?start=1545831903",
+      "personal_link": "https://t.me/pixelversexyzbot?start=382017625",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/pixeltap.jpg",
+      "rate": "fun"
+    },
+    {
+      "name": "Ton Heroes",
+      "link": "https://t.me/TonHeroesBot?start=2JDOjlE",
+      "personal_link": "https://t.me/TonHeroesBot?start=gpx29PN",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/ton-heroes.jpg",
+      "rate": "fun"
+    },
+    {
+      "name": "Dog Mutant",
+      "link": "https://t.me/DogMutantBot/gameapp?startapp=dog_382017625",
+      "personal_link": "https://t.me/DogMutantBot/gameapp?startapp=dog_1545831903",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/dog_mutant.png",
+      "rate": "fun"
+    },
+    {
+      "name": "Ed Chess",
+      "link": "https://t.me/edchess_bot?start=fPyXcrBvvwDK",
+      "personal_link": "https://t.me/edchess_bot?start=DTbaIkjfaddE",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/edchess.jpg",
+      "rate": "fun"
+    },
+    {
+      "name": "Chess Node",
+      "link": "https://t.me/chessnode_bot?start=1545831903",
+      "personal_link": null,
+      "description": null,
+      "icon": "/assets/images/icon/crypto/chessnode.jpg",
+      "rate": "fun"
+    },
+    {
+      "name": "Shark Attack",
+      "link": "https://t.me/shark_attack_io_bot/shark_attack?startapp=1545831903",
+      "personal_link": "https://t.me/shark_attack_io_bot/shark_attack?startapp=382017625",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/shark_attack.jpg",
+      "rate": "fun"
+    },
+    {
+      "name": "Snake Ton",
+      "link": "https://t.me/snaketon_bot?start=JmlkPTE1NDU4MzE5MDM=",
+      "personal_link": "https://t.me/snaketon_bot?start=JmlkPTM4MjAxNzYyNQ==",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/snaketon.jpg",
+      "rate": "fun"
+    },
+    {
+      "name": "Catizen",
+      "link": "https://t.me/catizenbot/gameapp?startapp=rp_6720271",
+      "personal_link": "https://t.me/catizenbot/gameapp?startapp=r_2908_3141565",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/catizen.jpg",
+      "rate": "fun"
+    },
+    {
+      "name": "Money Garden",
+      "link": "https://t.me/moneygardenaibot?start=1545831903",
+      "personal_link": "https://t.me/moneygardenaibot?start=382017625",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/catizen.jpg",
+      "rate": "fun"
+    },
+    {
+      "name": "Gamee",
+      "link": "https://t.me/gamee?start=ref_1545831903",
+      "personal_link": "https://t.me/gamee?start=ref_382017625",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/gamee.jpg",
+      "rate": "fun"
+    },
+    {
+      "name": "The Yes Coin",
+      "link": "https://t.me/theYescoin_bot/Yescoin?startapp=k4S396",
+      "personal_link": "https://t.me/theYescoin_bot/Yescoin?startapp=ydHpFC",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/the_yes_coin.jpg",
+      "rate": "playable"
+    },
+    {
+      "name": "Really Yes Coin",
+      "link": "https://t.me/realyescoinbot?start=r_1545831903",
+      "personal_link": "https://t.me/realyescoinbot?start=r_382017625",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/really_yes_coin.png",
+      "rate": "playable"
+    },
+    {
+      "name": "W Coin",
+      "link": "https://t.me/wcoin_tapbot?start=MTU0NTgzMTkwMw==",
+      "personal_link": "https://t.me/wcoin_tapbot?start=MzgyMDE3NjI1",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/wcoin.jpg",
+      "rate": "playable"
+    },
+    {
+      "name": "Tap Swap",
+      "link": "https://t.me/tapswap_mirror_2_bot?start=r_1545831903",
+      "personal_link": null,
+      "description": null,
+      "icon": "/assets/images/icon/crypto/tapswap.jpg",
+      "rate": "playable"
+    },
+    {
+      "name": "Dot Coin",
+      "link": "https://t.me/dotcoin_bot?start=r_1545831903",
+      "personal_link": null,
+      "description": null,
+      "icon": "/assets/images/icon/crypto/dotcoin.jpg",
+      "rate": "playable"
+    },
+    {
+      "name": "Bunny App",
+      "link": "https://t.me/bunnyAppBot?start=r_1545831903",
+      "personal_link": "https://t.me/bunnyAppBot?start=r_382017625",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/bunny_app.jpg",
+      "rate": "playable"
+    },
+    {
+      "name": "Papercoin",
+      "link": "https://t.me/papercoinbot?start=VVFBTWVFX0RrZ1FFSTczeWRBeDlVMDhXSk5ENUFPd3lMQWppZFpsWGVOb3dhSkoy",
+      "personal_link": "https://t.me/papercoinbot?start=VVFDLUlwSDVNd2c4UjBIak43bGVYS1czSldBOFZhS0pBZWN2WTZyWGdoOU5iWFEy",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/papercoin.png",
+      "rate": "playable"
+    },
+    {
+      "name": "Ton Poker",
+      "link": "https://t.me/myTonPokerBot/lobby?startapp=eyJhZnAiOiJPVGMxT0dJellqUTJOR1k0WkRaa09USTRZV05rWmpBek1EazRORFV6TTJFIn0",
+      "personal_link": "https://t.me/myTonPokerBot/lobby?startapp=eyJhZnAiOiJaakk1WVdReE5UWmpNRFEzTkdWa05HTXlOVGswTWpObU1HSmtZelkwTmprIn0",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/tonpoker.png",
+      "rate": "fun"
+    },
+    {
+      "name": "Bitget",
+      "link": "https://t.me/BitgetOfficialBot/Bitget?startapp=JwnaGhlngUX3oFNY19xOIYczPIZ1Hy9",
+      "personal_link": null,
+      "description": null,
+      "icon": "/assets/images/icon/crypto/bitget.png",
+      "rate": "others"
+    },
+    {
+      "name": "xrocket",
+      "link": "https://t.me/xrocket?start=i_purnama",
+      "personal_link": "https://t.me/xrocket?start=i_fajar",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/xrocket.png",
+      "rate": "others"
+    },
+    {
+      "name": "Storm Trade",
+      "link": "https://app.storm.tg/?ref=4A9NrkWKtB",
+      "personal_link": "https://app.storm.tg/?ref=4A9NrkWKtC",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/storm-trade.png",
+      "rate": "others"
+    },
+    {
+      "name": "Snapster Trading",
+      "link": "https://t.me/snapster_bot?start=1545831903",
+      "personal_link": "https://t.me/snapster_bot?start=382017625",
+      "description": null,
+      "icon": "/assets/images/icon/crypto/snapster-trading.png",
+      "rate": "others"
+    },
+    {
+      "name": "Telegram App Center",
+      "link": "https://www.tapps.center/",
+      "description": "Application list on Telegram",
+      "icon": "/assets/images/icon/telegram_app_center.jpg",
+      "rate": "others"
+    },
+    {
+      "name": "Ton App Center",
+      "link": "https://ton.app/",
+      "description": "Dapp list on Telegram Open Network",
+      "icon": "/assets/images/icon/crypto/tonapp.png",
+      "rate": "others"
+    },
+    {
+      "name": "Communities",
+      "link": "https://t.me/community_bot",
+      "description": "Communities in TON for early opportunities",
+      "icon": "/assets/images/icon/crypto/communities_ton.jpg",
+      "rate": "others"
+    }
+  ]
+}
